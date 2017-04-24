@@ -54,7 +54,11 @@ a:active {
 	padding-bottom: 90px; background-color: rgb(28, 34, 36);
 }
 .subscribe {
-	padding-bottom: 40px; background-color: rgb(35, 43, 45);
+	padding-bottom: 40px; background: rgb(35,43,35); /* Old browsers */
+background: -moz-linear-gradient(top, rgb(35,43,35) 0%, rgb(80,73,66) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgb(35,43,35) 0%,rgb(80,73,66) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgb(35,43,35) 0%,rgb(80,73,66) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#232b23', endColorstr='#504942',GradientType=0 ); /* IE6-9 */
 }
 .portfolio {
 	padding-bottom: 200px;
@@ -72,10 +76,10 @@ a:active {
 	padding-bottom: 110px; background-color: rgb(28, 34, 36);
 }
 footer {
-	height: 235px; background-color: rgb(36, 44, 46);
+	height: 100px; background-color: rgb(36, 44, 46);
 }
 h1 {
-	color: rgb(233, 91, 55); line-height: 32px; font-size: 28px;
+	color: rgb(233, 91, 55); line-height: 32px; font-size: 28px; margin-top:80px;
 }
 h2 {
 	color: rgb(233, 91, 55); line-height: 24px; padding-top: 0px; padding-left: 15px; font-size: 22px; font-weight: bold; border-left-color: rgb(233, 91, 55); border-left-width: 10px; border-left-style: solid;
@@ -183,7 +187,7 @@ p.yellow {
 	margin-top: 25px; float: left;
 }
 .carousel-nav {
-	width: 140px; height: 90px; float: left; background-color: rgb(240, 92, 69);
+	width: 140px; height: 90px; float: left; color: rgb(240, 92, 69);
 }
 a#home-next {
 	width: 70px; height: 70px; margin-top: 25px; margin-left: 45px; float: left; display: inline-block; background-image: url("../images/home_arrow.png"); background-repeat: no-repeat;
@@ -474,7 +478,7 @@ article .article-content {
 	padding: 50px 50px 25px; color: rgb(153, 153, 153); background-color: rgb(255, 255, 255);
 }
 article .article-content h1 {
-	width: 49%; color: rgb(240, 92, 69); line-height: 24px; letter-spacing: -0.03em; font-family: "Muli", Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif; font-size: 22px; font-weight: bold; margin-bottom: 30px;
+	width: 49%; color: rgb(240, 92, 69); line-height: 24px; letter-spacing: 0.03em; font-family: "Muli", Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif; font-size: 22px; font-weight: bold; margin-bottom: 30px; margin-top:30px;
 }
 article .article-content h2 {
 	padding: 5px 0px 5px 25px; color: rgb(240, 92, 69); line-height: 24px; font-family: "Muli", Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif; font-size: 14px; margin-top: 45px; margin-bottom: 35px; border-left-color: rgb(233, 91, 55); border-left-width: 10px; border-left-style: solid;
